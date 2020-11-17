@@ -32,4 +32,4 @@ void loop() {
 
 ```
 
-[Air](air.jpg)
+![Air](air.jpg)
