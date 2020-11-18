@@ -5,7 +5,6 @@
 #include "Adafruit_LEDMatrixArray.h"
 #include "Adafruit_LEDMatrixArray.cpp"
 
-
 Adafruit_BicolorMatrix displays[] = {
   Adafruit_BicolorMatrix(), Adafruit_BicolorMatrix()
 };
@@ -26,7 +25,7 @@ void setup() {
 void loop() {
   matrix.clear();
   matrix.setCursor(0, 0);
-  matrix.print(message);
+  matrix.print("Air");
   matrix.writeDisplay();
 }
 
